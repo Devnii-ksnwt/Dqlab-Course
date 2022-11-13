@@ -1,0 +1,37 @@
+#Sequence Type 1 - Data List
+contoh_list = [1, "dua", 3, 4.0, 5]
+print(contoh_list[0])
+print(contoh_list[3])
+contoh_list = [1, "dua", 3, 4.0, 5]
+contoh_list[3] = "empat"
+print(contoh_list[3])
+
+#Sequence Type 2 - Tipe Data Tuple
+contoh_tuple = ('januari', 'februari', 'maret', 'april')
+print(contoh_tuple[0])
+contoh_tuple = ('januari', 'februari', 'maret', 'april')
+contoh_tuple[0] = 'Desember'
+
+#Set Type
+contoh_list = ['Dewi', 'Budi', 'Cici', 'Linda', 'Cici']
+print(contoh_list)
+contoh_set = {'Dewi', 'Budi', 'Cici', 'Linda', 'Cici'}
+print(contoh_set)
+contoh_frozen_set = ({'Dewi', 'Budi', 'Cici', 'Linda', 'Cici'})
+print(contoh_frozen_set)
+
+#Mapping Type
+person = {'nama':'John Doe', 'pekerjaan':'Programmer'}
+print(person['nama'])
+print(person['pekerjaan'])
+
+#Task Kalkulator
+sepatu = {"nama": "Sepatu Niko", "harga": 150000, "diskon": 30000} 
+baju = {"nama": "Baju Unikloh", "harga": 80000, "diskon": 8000} 
+celana = {"nama": "Celana Lepis", "harga": 200000, "diskon": 60000}
+harga_sepatu = sepatu["harga"] - sepatu["diskon"] 
+harga_baju = baju["harga"] - baju["diskon"]
+harga_celana = celana["harga"] - celana["diskon"]
+total_harga = harga_sepatu + harga_baju + harga_celana
+total_pajak = total_harga * 0.1
+print(total_harga+total_pajak)
